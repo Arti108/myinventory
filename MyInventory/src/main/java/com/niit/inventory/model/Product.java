@@ -59,16 +59,6 @@ public float getPrice() {
 public void setPrice(float price) {
 	this.price = price;
 }
-@ManyToOne
-@JoinColumn(name = "orderId")
-private Order1 order;
 
-public Order1 getOrder() {
-	return order;
-}
-
-public void setOrder(Order1 order) {
-	this.order = order;
-}
 
 }

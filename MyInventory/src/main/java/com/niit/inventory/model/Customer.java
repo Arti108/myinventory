@@ -94,16 +94,5 @@ public class Customer {
 		// TODO Auto-generated constructor stub
 	}
 	
-	@OneToOne
-	@JoinColumn(name = "orderId")
-	private Order1 order;
-
-	public Order1 getOrder() {
-		return order;
-	}
-
-	public void setOrder(Order1 order) {
-		this.order = order;
-	}
-
+	
 }
